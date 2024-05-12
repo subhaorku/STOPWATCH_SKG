@@ -1,0 +1,36 @@
+.content-container {
+    
+    background-color: #000;
+    color: yellow;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    /* Make the container take up the full height of the viewport */
+  }
+  
+  .content-container:hover {
+    color: rgb(255, 170, 0);
+  }
+  
+  .content-heading {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .content-value {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+  
+  .content-image {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  .content-image:hover {
+    background-color: rgba(232, 221, 221, 0);
+  }
+  

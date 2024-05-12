@@ -1,0 +1,28 @@
+.button-container {
+    text-align: center; /* Center-align the button */
+  }
+  
+  .button-styling {
+    background-color: #FFD700; /* Yellow background */
+    color: #000; /* Black text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+    margin-right: 20px; /* Add right margin to create space between buttons */
+  }
+  
+  .button-styling:last-child {
+    margin-right: 0; /* Remove right margin from last button */
+  }
+  
+  .button-styling:hover {
+    background-color: #FFA500; /* Light orange background on hover */
+  }
+  
+  .button-styling:active {
+    background-color: #FFA500; /* Light orange background when button is active */
+  }
+  
+  
